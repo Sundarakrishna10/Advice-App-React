@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(151, 28, 69);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Advice Component Styles */
+.advice {
+    color: #f0f0f0;
+    /* Light gray text color for better contrast */
+    text-align: center;
+    background: rgba(225, 219, 219, 0.6);
+    /* Slightly darker background for better contrast */
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 400px;
+    width: 100%;
+
+}
+
+.advice h3 {
+    font-size: 22px;
+    /* Slightly larger font size for the advice text */
+    font-weight: 600;
+    color: #131212;
+    /* Pure white color for advice text */
+    margin-bottom: 20px;
+}
+
+.advice button {
+    border: none;
+    background-color: #6a1b9a;
+    /* Rich purple color for button background */
+    color: #ffffff;
+    /* White text color for button */
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.advice button:hover {
+    background-color: #4a0072;
+    /* Darker purple color for button hover effect */
+}
+
+.advice button:disabled {
+    background-color: #9e9e9e;
+    /* Gray color for disabled button */
+    cursor: not-allowed;
+}
+
+.advice p {
+    font-size: 16px;
+    color: #403e3e;
+    /* Light gray color for the advice count text */
+    margin-top: 10px;
+}
